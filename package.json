@@ -1,0 +1,30 @@
+{
+  "name": "electronautoupdate",
+  "version": "0.0.1",
+  "description": "Project example by Electron autoUpdater",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreddyGamboa/ElectronAutoUpdate.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Freddy Gamboa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreddyGamboa/ElectronAutoUpdate/issues"
+  },
+  "homepage": "https://github.com/FreddyGamboa/ElectronAutoUpdate#readme",
+  "devDependencies": {
+    "electron": "^7.1.9",
+    "electron-builder": "^22.2.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.2.0"
+  }
+}
