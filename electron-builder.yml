@@ -1,4 +1,4 @@
 appId: com.SCF.ElectronAutoUpdateExample
 publish:
   provider: github
-  token: ${FREMAR_POS}
+  token: $FREMAR_POS
