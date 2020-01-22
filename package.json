@@ -1,12 +1,12 @@
 {
   "name": "electronautoupdate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Project example by Electron autoUpdater",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always",
+    "build": "electron-builder build --x64 --win --publish never",
+    "deploy": "electron-builder build --x64 --win --publish always",
     "test": "echo 'Test app'"
   },
   "repository": {

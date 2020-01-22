@@ -1,4 +1,40 @@
-appId: com.SCF.ElectronAutoUpdateExample
+productName: ElectronAutoUpdateExample
+appId: com.scf.ElectronAutoUpdateExample
 publish:
   provider: github
-  token: $FREMAR_POS
+  url: https://github.com/FreddyGamboa/ElectronAutoUpdate.git
+
+
+#Mac OS configuration
+#mac:
+#  icon: "src/app/assets/images/icon.icns"
+
+# Config for OSX dmg
+#dmg:
+#  contents:
+#    - x: 130
+#      y: 220
+#    - x: 410
+#      y: 220
+#      type: "link"
+#      path: "/Applications"
+
+# Windows configuration
+win:
+#  icon: "src/app/assets/images/icon.ico"
+  target:
+    - "zip"
+    - "nsis"
+
+# Config for the windows installer
+nsis:
+  oneClick: true
+  perMachine: true
+
+# Linux configuration
+#linux:
+#  category: Development
+#  target:
+#    - "AppImage"
+#    - "deb"
+#    - "rpm"
